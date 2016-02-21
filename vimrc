@@ -1,9 +1,13 @@
 :echo ">^.^<"
-" Line numbers visible
-:set number
 
 " set default space for indents to 4 
-:set shiftwidth=4
+set ai ts=4 expandtab
+
+abbr _sh #!/bin/bash
+
+" Line numbers visible
+:set number
+nmap <C-n> :set invnumber<CR>
 
 " key mappings
 :noremap - ddp
