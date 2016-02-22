@@ -4,6 +4,8 @@
 set ai ts=4 expandtab
 
 abbr _sh #!/bin/bash
+abbr _rb #!/bin/ruby
+abbr _py #!/usr/bin/python
 
 " Line numbers visible
 :set number
